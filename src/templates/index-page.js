@@ -48,16 +48,12 @@ export default IndexPage
 
 export const pageQuery = graphql`
 query IndexPageTemplate {
-    allMarkdownRemark(filter: {}) {
-      edges {
-        node {
-          frontmatter {
+    markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
+        frontmatter {
             heading
             subheading
             herotext
-          }
         }
-      }
     }
   }  
 `
