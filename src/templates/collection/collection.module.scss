@@ -1,0 +1,30 @@
+section {
+    width: 75%;
+    padding: 2em;
+    margin: auto;
+    color: #2d2d2d;
+
+    .header {
+        padding: 2em 0;
+        border-bottom: 1px solid #2d2d2d ;
+        
+        h1 {
+            font-size: 72px;
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+            font-size: 24px;
+
+            small {
+                font-size: 18px;
+                color: #7a7a7a
+            }
+        }
+    }
+
+    .content {
+        margin: 2em 6em;
+    }
+}
