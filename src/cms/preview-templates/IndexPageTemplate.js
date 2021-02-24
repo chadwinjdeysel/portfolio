@@ -11,6 +11,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
                 heading={data.heading}
                 subheading={data.subheading}
                 herotext={data.herotext}
+                keywords={data.key}
             />
         )
     } else {

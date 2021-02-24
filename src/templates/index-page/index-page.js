@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import Layout from '../../components/layout/layout'
-import Head from '../../components/head/head'
 
 import IndexPageStyles from './index.module.scss'
 
@@ -14,10 +13,6 @@ export const IndexPageTemplate =({
     keywords
 }) => (
     <div className={ IndexPageStyles.container }>
-
-        <Head page="Home"
-            url="/home"
-            keywords={ keywords }/>
 
         <div className={ IndexPageStyles.heroText}>
             <h1>{ heading }</h1>
@@ -38,7 +33,8 @@ const IndexPage = ({ data }) => {
     const { frontmatter } = data.markdownRemark
 
     return (
-        <Layout>
+        <Layout page="Home">
+
             <IndexPageTemplate
                 heading={ frontmatter.heading }
                 subheading={ frontmatter.subheading }
@@ -66,7 +62,7 @@ query IndexPageTemplate {
             heading
             subheading
             herotext
-            keywords
+            keywords    
         }
     }
   }  

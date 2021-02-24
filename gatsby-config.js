@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Web Starter`,
-    siteDescription: `Here lies a description of the site that you're about to build.`,
+    siteTitle: `Pink Sheep Boilerplate`,
+    siteDescription: `A lightning fast, mobile first boilerplate that has been built with GatsbyJs and NetlifyCMS with an emphasis on UX and SEO... ooo the buzzwords`,
     author: `@chadwinjdeysel`,
     siteUrl: `https://example.com/`
   },
