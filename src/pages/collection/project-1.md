@@ -4,6 +4,7 @@ title: "Project 1"
 date: 2020-01-31
 featuredImage: /img/placeholder.png
 description: "Website built with GatsbyJs and NetlifyCMS that allows company to post lastest products and news."
+keywords: "blog, product details, latest news"
 ---
 # Heading 1
 

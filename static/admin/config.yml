@@ -10,13 +10,14 @@ collections:
     label: 'Collection'
     folder: 'src/pages/collection'
     create: true
-    slug: '{{slug}}'
+    identifier_field: name
     fields: 
       - {label: 'Template Key', name: 'templateKey', widget: 'hidden', default: 'collection'}
       - {label: 'Title', name: 'title', widget: 'text'}
       - {label: 'Description', name: 'description', widget: 'text'}
       - {label: 'Date', name: 'date', widget: 'date'}
-      - {label: 'Body', name: 'Body', widget: 'markdown'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+      - {label: 'Keywords', name: 'keywords', widget: 'string'}
 
   - name: 'pages'
     label: 'Pages'

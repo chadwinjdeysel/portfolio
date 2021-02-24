@@ -4,6 +4,7 @@ title: "Project 2"
 date: 2021-01-31
 featuredImage: /img/placeholder.png
 description: "Website built with GatsbyJs and NetlifyCMS that does the same thing as project 1, but better. much better"
+keywords: "blog, product details, latest news"
 ---
 # Heading 1
 

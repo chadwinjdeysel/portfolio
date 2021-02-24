@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import Layout from '../../components/layout/layout'
+import Content, { HTMLContent } from '../../components/content/content'
 
 import CollectionStyles from './collection.module.scss'
 
@@ -10,20 +11,24 @@ export const CollectionPageTemplate =({
     title,
     date,
     description,
-    content
-}) => (
-    <section>
-        <div className={CollectionStyles.header}>
-            <h1>{title}</h1>
-            <p>
-                <small>{date}</small>
-            </p>
-            <p>{description}</p>
-        </div>
+    content,
+    contentComponent
+}) => {
+    const PostContent = contentComponent || Content
+    
+    return(
+        <section>
+            <div className={CollectionStyles.header}>
+                <h1>{title}</h1>
+                <p>
+                    <small>{date}</small>
+                </p>
+                <p>{description}</p>
+            </div>
 
-        <div dangerouslySetInnerHTML={{__html: content}} className={CollectionStyles.content}></div>
-    </section>
-)
+            <PostContent content={content}/>
+        </section>
+    )}
 
 CollectionPageTemplate.propTypes = {
     content: PropTypes.node.isRequired,
@@ -36,9 +41,14 @@ const Collection = ({ data }) => {
     const { markdownRemark: item } = data
 
     return (
-        <Layout>
+        <Layout title={item.frontmatter.title}
+            description={item.frontmatter.description}
+            keywords={item.frontmatter.keywords}
+            url={item.fields.slug}>
+
             <CollectionPageTemplate
                 content={item.html}
+                contentComponent={HTMLContent}
                 title={item.frontmatter.title}
                 date={item.frontmatter.date}
                 description={item.frontmatter.description}
@@ -64,6 +74,10 @@ export const pageQuery = graphql`
                 date(fromNow: true)
                 title
                 description
+                keywords
+            }
+            fields{
+                slug
             }
         }
     }
