@@ -2,17 +2,29 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/layout/layout'
+import Layout from '../../components/layout/layout'
+import Head from '../../components/head/head'
+
+import IndexPageStyles from './index.module.scss'
 
 export const IndexPageTemplate =({
     heading,
     subheading,
-    herotext
+    herotext,
+    keywords
 }) => (
-    <div>
-        <h1>{ heading }</h1>
-        <h2>{ subheading }</h2>
-        <p>{ herotext }</p>
+    <div className={ IndexPageStyles.container }>
+
+        <Head page="Home"
+            url="/home"
+            keywords={ keywords }/>
+
+        <div className={ IndexPageStyles.heroText}>
+            <h1>{ heading }</h1>
+            <h2>{ subheading }</h2>
+            <p>{ herotext }</p>
+        </div>
+        
     </div>
 )
 
@@ -31,6 +43,7 @@ const IndexPage = ({ data }) => {
                 heading={ frontmatter.heading }
                 subheading={ frontmatter.subheading }
                 herotext={ frontmatter.herotext }
+                keywords={ frontmatter.keywords }
             />
         </Layout>
     )
@@ -53,6 +66,7 @@ query IndexPageTemplate {
             heading
             subheading
             herotext
+            keywords
         }
     }
   }  

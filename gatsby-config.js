@@ -3,7 +3,7 @@ module.exports = {
     siteTitle: `Web Starter`,
     siteDescription: `Here lies a description of the site that you're about to build.`,
     author: `@chadwinjdeysel`,
-    siteUrl: `https://example.com`
+    siteUrl: `https://example.com/`
   },
   plugins: [
     `gatsby-plugin-sass`,

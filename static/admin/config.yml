@@ -17,3 +17,4 @@ collections:
           - {label: 'Heading', name: 'heading', widget: 'string'}
           - {label: 'Subheading', name: 'subheading', widget: 'string'}
           - {label: 'Hero Text', name: 'herotext', widget: 'string'}
+          - {label: 'Keywords (separate with comma)', name: 'keywords', widget: 'string'}
