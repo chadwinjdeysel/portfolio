@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+
+    .feed {
+        height: 200vh;
+    }
+}
+
+// very large screens
+@media (min-width: 1024px) {
+    .container {
+        flex-flow: row;
+        width: 60%;
+        margin: 0 auto;
+
+
+        .sidebar {
+            width: 40%;
+        }
+
+        .feed {
+            width: 60%;
+        }
+    }
+}
+
+
+// large screens
+@media (min-width: 769px) and (max-width: 1023px) {
+    .container {
+        flex-flow: row;
+        width: 80%;
+        margin: 0 auto;
+
+
+        .sidebar {
+            width: 40%;
+        }
+
+        .feed {
+            width: 60%;
+        }
+    }
+}
+
+// tablets 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        flex-flow: column;
+        width: 85%;
+        margin: 0 auto;
+
+        .sidebar {
+            width: 100%;    
+        }
+
+        .feed {
+            width: 100%;
+        }
+    }
+}
+
+// smartphones 
+@media only screen and (max-width: 480px) {
+    .container {
+        flex-flow: column;
+
+        .sidebar {
+            width: 100%
+        }
+
+        .feed {
+            width: 100%
+        }
+    }
+}

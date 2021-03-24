@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+
+import SidebarStyles from './sidebar.module.scss'
 
 export const SidebarTemplate = ({
     myname,
@@ -8,7 +9,7 @@ export const SidebarTemplate = ({
     description,
     image
 }) => (
-    <div>
+    <div className={ SidebarStyles.container }>
 
         <img src={image}/>
 

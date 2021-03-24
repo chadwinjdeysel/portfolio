@@ -25,8 +25,6 @@ const Layout = ({
                 image={image}
                 url={url}
             />
-            
-            <Navbar />
 
             {children}
         </div>
