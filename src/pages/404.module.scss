@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 0;
+        color: #2b2b2b
+    }
+
+    p {
+        font-size: 24px;
+        margin: .5em 0;
+        color: #2b2b2b
+    }
+
+    a {
+        display: block;
+        margin: .25em 0 1em 0;
+        font-size: 24px;
+        color: #4287f5;
+    }
+}

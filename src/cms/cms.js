@@ -1,7 +1,7 @@
 import CMS from 'netlify-cms-app'
 
-import IndexPagePreview from './preview-templates/IndexPageTemplate'
 import CollectionPagePreview from './preview-templates/CollectionPageTemplate'
+import SidebarComponentPreview from './preview-templates/SidebarComponentPreview'
 
-CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('collection', CollectionPagePreview)
+CMS.registerPreviewTemplate('sidebar', SidebarComponentPreview)

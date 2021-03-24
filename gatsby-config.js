@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Pink Sheep Boilerplate`,
-    siteDescription: `A lightning fast, mobile first boilerplate that has been built with GatsbyJs and NetlifyCMS with an emphasis on UX and SEO... ooo the buzzwords`,
+    siteTitle: `Chadwin Deysel`,
+    siteDescription: `Chadwin Deysel is a fullstack web developer that specialises in designing and building web applications using C#, .NET Core and Angular`,
     author: `@chadwinjdeysel`,
-    siteUrl: `https://example.com/`
+    siteUrl: `https://chadwindeysel.co.za/`
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -17,6 +17,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/pages/`,
         name: 'pages',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/components/`,
+        name: 'components',
       },
     },
     {

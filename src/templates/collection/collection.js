@@ -41,7 +41,8 @@ const Collection = ({ data }) => {
     const { markdownRemark: item } = data
 
     return (
-        <Layout title={item.frontmatter.title}
+        <Layout page="Chadwin Deysel Blog" 
+            title={item.frontmatter.title}
             description={item.frontmatter.description}
             keywords={item.frontmatter.keywords}
             url={item.fields.slug}>

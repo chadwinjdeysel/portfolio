@@ -31,3 +31,16 @@ collections:
           - {label: 'Subheading', name: 'subheading', widget: 'string'}
           - {label: 'Hero Text', name: 'herotext', widget: 'string'}
           - {label: 'Keywords', name: 'keywords', widget: 'string'}
+
+  - name: 'components'
+    label: 'Components'
+    files: 
+      - file: 'src/components/sidebar/sidebar.md'
+        label: 'Sidebar Component'
+        name: 'sidebar'
+        fields: 
+          - {label: 'Component', name: 'component', widget: 'hidden', default: 'sidebar'}
+          - {label: 'Name', name: 'name', widget: 'string'}
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'Description', name: 'description', widget: 'string'}
+          - {label: 'Image', name: 'image', widget: 'image'}
