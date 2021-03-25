@@ -1,9 +1,5 @@
 .container {
     display: flex;
-
-    .feed {
-        height: 200vh;
-    }
 }
 
 // very large screens
@@ -12,7 +8,6 @@
         flex-flow: row;
         width: 60%;
         margin: 0 auto;
-
 
         .sidebar {
             width: 40%;
@@ -31,7 +26,6 @@
         flex-flow: row;
         width: 80%;
         margin: 0 auto;
-
 
         .sidebar {
             width: 40%;

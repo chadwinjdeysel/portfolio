@@ -6,9 +6,9 @@ media_folder: static/img
 public_folder: /img
 
 collections: 
-  - name: 'collection'
-    label: 'Collection'
-    folder: 'src/pages/collection'
+  - name: 'posts'
+    label: 'Posts'
+    folder: 'src/pages/posts'
     create: true
     identifier_field: name
     fields: 
@@ -18,6 +18,7 @@ collections:
       - {label: 'Date', name: 'date', widget: 'date'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
       - {label: 'Keywords', name: 'keywords', widget: 'string'}
+      - {label: 'Category', name: 'category', widget: 'string'}
 
   - name: 'pages'
     label: 'Pages'

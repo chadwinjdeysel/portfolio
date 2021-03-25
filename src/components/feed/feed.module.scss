@@ -1,0 +1,64 @@
+.container {
+    padding: 2rem;
+
+    article {
+        margin: .5em 0;
+        padding: 1em;
+        border-radius: 12px;
+
+        a {
+            text-decoration: none;
+            color: black;
+            
+            .header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .category {
+                display: block;
+                padding: .4em;
+                border-radius: 12px;
+            }
+
+            .project {
+                background-color: salmon;
+                color: rgb(71, 35, 31);
+            }
+        
+            .caseStudy {
+                background-color: skyblue;
+                color: rgb(53, 82, 94);
+            }
+        
+            .article {
+                background-color: rgb(148, 131, 255);
+                color: rgb(41, 35, 82);
+            }
+        
+            .tutorial {
+                background-color: sandybrown;
+                color: rgb(99, 66, 38);
+            }
+
+            h2 {
+                font-size: 1.75rem;
+                margin-bottom: 0px; 
+                margin-top: .5em; 
+            }
+
+            p {
+                margin: .5em 0;
+
+                small {
+                    margin-top: 0; 
+                }
+            }
+        }
+
+        &:hover{
+            background-color: #ffd6e9;
+        }
+    }
+}

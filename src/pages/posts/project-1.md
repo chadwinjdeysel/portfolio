@@ -1,12 +1,14 @@
 ---
-
+type: "page"
 templateKey: collection
-title: "Project 2"
-date: 2021-01-31
+title: "Project 1"
+date: 2020-01-31
 featuredImage: /img/placeholder.png
-description: "Website built with GatsbyJs and NetlifyCMS that does the same thing as project 1, but better. much better"
+description: "Website built with GatsbyJs and NetlifyCMS that allows company to post lastest products and news."
 keywords: "blog, product details, latest news"
+category: "project"
 ---
+
 # Heading 1
 
 Here is a short introduction of the collection. This give the user some insight into what they're looking at like product description, introduction etc.

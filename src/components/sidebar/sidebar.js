@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import {Link} from 'gatsby'
 
 import SidebarStyles from './sidebar.module.scss'
 
@@ -11,7 +12,9 @@ export const SidebarTemplate = ({
 }) => (
     <div className={ SidebarStyles.container }>
 
-        <img src={image}/>
+        <Link to="/">
+            <img src={image}/>
+        </Link>        
 
         <h1>{myname}</h1>
 
@@ -30,7 +33,7 @@ SidebarTemplate.propTypes = {
 }
 
 const Sidebar = ({data}) => {
-    const {frontmatter} = data.markdownRemark
+    const {frontmatter} = data
 
     return (
         <SidebarTemplate 

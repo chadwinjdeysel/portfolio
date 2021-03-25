@@ -11,7 +11,7 @@ const CollectionIndex = () => {
             allMarkdownRemark(
                 sort: {fields: frontmatter___date, 
                 order: DESC},
-                filter: {frontmatter: {templateKey: {eq: "collection"}}}) 
+                filter: {frontmatter: {templateKey: {eq: "posts"}}}) 
                 {
                 edges {
                     node {

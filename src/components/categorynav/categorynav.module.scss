@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: .5em;
+    justify-content: space-evenly;
+    margin-top: 2em;
+
+    .category {
+        display: block;
+        padding: .4em;
+        border-radius: 12px;
+        text-decoration: none;
+    }
+
+    .project {
+        background-color: salmon;
+        color: rgb(71, 35, 31);
+    }
+
+    .caseStudy {
+        background-color: skyblue;
+        color: rgb(53, 82, 94);
+    }
+
+    .article {
+        background-color: rgb(148, 131, 255);
+        color: rgb(41, 35, 82);
+    }
+
+    .tutorial {
+        background-color: sandybrown;
+        color: rgb(99, 66, 38);
+    }
+}
