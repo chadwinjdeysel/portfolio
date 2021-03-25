@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import Layout from '../../components/layout/layout'
 import Content, { HTMLContent } from '../../components/content/content'
@@ -17,17 +17,21 @@ export const CollectionPageTemplate =({
     const PostContent = contentComponent || Content
     
     return(
-        <section>
-            <div className={CollectionStyles.header}>
-                <h1>{title}</h1>
-                <p>
-                    <small>{date}</small>
-                </p>
-                <p>{description}</p>
-            </div>
+        <div className={CollectionStyles.container}>
+            <Link to="/">all posts</Link>
 
-            <PostContent content={content}/>
-        </section>
+            <section>
+                <div className={CollectionStyles.header}>
+                    <h1>{title}</h1>
+                    <p>
+                        <small>{date}</small>
+                    </p>
+                    <p>{description}</p>
+                </div>
+
+                <PostContent content={content}/>
+            </section>
+        </div>
     )}
 
 CollectionPageTemplate.propTypes = {

@@ -1,30 +1,80 @@
-section {
-    width: 75%;
-    padding: 2em;
+.container {
     margin: auto;
-    color: #2d2d2d;
 
-    .header {
-        padding: 2em 0;
-        border-bottom: 1px solid #2d2d2d ;
-        
-        h1 {
-            font-size: 72px;
-            margin: 0;
-        }
+    a {
+        color: #7a7a7a;
+        text-decoration: none;
+        font-size: 1.25em;
+        margin: 1em 0 0 1em;
+        display: inline-block;
+    }
 
-        p {
-            margin: 0;
-            font-size: 24px;
-
-            small {
-                font-size: 18px;
-                color: #7a7a7a
+    section {
+        padding: 0 2em;
+        margin: auto;
+        color: #2d2d2d;
+    
+        .header {
+            padding: 2em 0;
+            border-bottom: 1px solid #2d2d2d ;
+            
+            h1 {
+                font-size: 2.75em;
+                margin: 0;
+            }
+    
+            p {
+                margin: 0;
+                font-size: 1.25em;
+    
+                small {
+                    font-size: .75em;
+                    color: #7a7a7a
+                }
             }
         }
+    
+        .content {
+            margin: 2em 6em;
+        }
     }
+    
+}
 
-    .content {
-        margin: 2em 6em;
+//very large screens 
+@media (min-width: 1024px) {
+    .container {
+        width: 60%;
+
+        section {
+            width: 85%;
+        }
     }
+}
+
+// large screens
+@media (min-width: 769px) and (max-width: 1023px) {
+    .container {
+        width: 80%;
+
+        section {
+            width: 85%;
+        }
+    }
+}
+
+// tablets 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 80%;
+
+        section {
+            width: 85%;
+        }
+    }
+}
+
+// smartphones 
+@media only screen and (max-width: 480px) {
+    
 }

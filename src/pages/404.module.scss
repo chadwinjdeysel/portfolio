@@ -1,17 +1,17 @@
 .container {
-    width: 100%;
+    margin: auto;
+    padding: 1em;
     display: flex;
     flex-flow: column;
-    align-items: center;
 
     h1 {
-        font-size: 48px;
+        font-size: 2.5em;
         margin-bottom: 0;
         color: #2b2b2b
     }
 
     p {
-        font-size: 24px;
+        font-size: 1.25em;
         margin: .5em 0;
         color: #2b2b2b
     }
@@ -19,7 +19,39 @@
     a {
         display: block;
         margin: .25em 0 1em 0;
-        font-size: 24px;
+        font-size: 1.50em;
         color: #4287f5;
     }
+
+    img {
+        width: 100%;
+    }
+}
+
+//very large screens 
+@media (min-width: 1024px) {
+    .container {
+        width: 50%;
+        align-items: center;
+    }
+}
+
+// large screens
+@media (min-width: 769px) and (max-width: 1023px) {
+    .container {
+        width: 50%;
+        align-items: center;
+    }
+}
+
+// tablets 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+// smartphones 
+@media only screen and (max-width: 480px) {
+   
 }

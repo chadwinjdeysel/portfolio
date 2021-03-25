@@ -5,7 +5,10 @@ import Index from '../index'
 
 const Tutorials = ({data}) => {
     return (
-        <Index data={data}/>
+        <Index data={data}
+            page={`Tutorials`}
+            description={`Some follow along tutorials where I teach certain concepts and languages.`}
+            url={`/categories/tutorials`}/>
     )
 } 
 

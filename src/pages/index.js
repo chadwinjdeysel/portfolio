@@ -8,9 +8,16 @@ import CategoryNav from '../components/categorynav/categorynav'
 
 import IndexStyles from './index.module.scss'
 
-const Index = ({data}) => {
+const Index = ({
+    data,
+    page,
+    description,
+    url
+    }) => {
     return (
-        <Layout>
+        <Layout page={page}
+            description={description}
+            url={url}>
 
             <div className={IndexStyles.container}>
 

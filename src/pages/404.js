@@ -16,9 +16,7 @@ const NotFoundPage = () => (
 
             <Link to="/">Return Home Instead?</Link> <br/>
 
-
             <img src={NotFoundIMG}
-                width="750"
                 alt="Chadwin Deysel 404"/>
         </div>
         
