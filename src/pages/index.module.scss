@@ -6,7 +6,7 @@
     }
 
     .feed {
-        padding: 1.5rem;
+        margin: .5em;
     }
 }
 
@@ -52,11 +52,11 @@
         margin: 0 auto;
 
         .sidebar {
-            width: 100%;    
+            width: 90%;    
         }
 
         .feed {
-            width: 100%;
+            width: 90%;
         }
     }
 }
@@ -67,11 +67,11 @@
         flex-flow: column;
 
         .sidebar {
-            width: 100%
+            width: 90%
         }
 
         .feed {
-            width: 100%
+            width: 90%
         }
     }
 }

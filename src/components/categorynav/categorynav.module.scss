@@ -1,38 +1,7 @@
 .container {
-    margin-top: 2em;
+    margin: 2em 0;
     max-width: 100%;
 
-    .category {
-        
-        padding: .4em;
-        border-radius: 12px;
-        text-decoration: none;
-    }
-
-    .project {
-        background-color: salmon;
-        color: rgb(71, 35, 31);
-    }
-
-    .caseStudy {
-        background-color: skyblue;
-        color: rgb(53, 82, 94);
-    }
-
-    .article {
-        background-color: rgb(148, 131, 255);
-        color: rgb(41, 35, 82);
-    }
-
-    .tutorial {
-        background-color: sandybrown;
-        color: rgb(99, 66, 38);
-    }
-
-    .all{
-        background-color: rgb(235, 235, 235);
-        color: #2d2d2d;
-    }
 }
 
 //very large screens 

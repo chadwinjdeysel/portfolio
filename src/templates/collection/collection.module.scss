@@ -1,30 +1,39 @@
 .container {
-    margin: auto;
+    margin: 1em auto 2em;
 
     a {
-        color: #7a7a7a;
         text-decoration: none;
         font-size: 1.25em;
         margin: 1em 0 0 1em;
         display: inline-block;
     }
 
-    section {
+    article {
         padding: 0 2em;
         margin: auto;
         color: #2d2d2d;
+        border-bottom: 1px solid #c0c0c0;
     
         .header {
             padding: 2em 0;
-            border-bottom: 1px solid #2d2d2d ;
+            border-bottom: 1px solid #c0c0c0;
             
-            h1 {
-                font-size: 2.75em;
-                margin: 0;
+            .heading {
+                display: flex;
+                justify-content: space-between;
+
+                h1 {
+                    font-size: 2.75em;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 1em;
+                }
             }
     
             p {
-                margin: 0;
+                margin: .25em 0;
                 font-size: 1.25em;
     
                 small {
@@ -32,10 +41,25 @@
                     color: #7a7a7a
                 }
             }
+
+            a {
+                margin: .75em 0 0 0;
+                font-size: 1.25em;
+            }
+
         }
     
         .content {
             margin: 2em 6em;
+        }
+    }
+
+    .socials-container {
+        margin: .25em 2em;
+
+        a {
+            color: #2d2d2d;
+            font-size: 1.5em;
         }
     }
     
@@ -46,7 +70,7 @@
     .container {
         width: 60%;
 
-        section {
+        article {
             width: 85%;
         }
     }
@@ -57,7 +81,7 @@
     .container {
         width: 80%;
 
-        section {
+        article {
             width: 85%;
         }
     }
@@ -68,7 +92,7 @@
     .container {
         width: 80%;
 
-        section {
+        article {
             width: 85%;
         }
     }

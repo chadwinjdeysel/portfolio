@@ -1,0 +1,64 @@
+.category {
+    padding: .4em 1em;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+}
+
+.project {
+    background-color: salmon;
+    color: rgb(71, 35, 31);
+}
+
+.caseStudy {
+    background-color: skyblue;
+    color: rgb(53, 82, 94);
+}
+
+.article {
+    background-color: rgb(148, 131, 255);
+    color: rgb(41, 35, 82);
+}
+
+.tutorial {
+    background-color: sandybrown;
+    color: rgb(99, 66, 38);
+}
+
+.all{
+    background-color: rgb(235, 235, 235);
+    color: #2d2d2d;
+}
+
+//very large screens 
+@media (min-width: 1024px) {
+    .category {
+        display: inline-block;
+        margin: .25em; 
+    }
+}
+
+// large screens
+@media (min-width: 769px) and (max-width: 1023px) {
+    .category {
+        display: inline-block;
+        margin: .25em; 
+    }
+}
+
+// tablets 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .category {
+        display: inline-block;
+        margin: .25em; 
+    }
+}
+
+// smartphones 
+@media only screen and (max-width: 480px) {
+    .category {
+        display: inline-block;
+        margin: .25em; 
+    }
+}

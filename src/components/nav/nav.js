@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin, FaPhone, FaEnvelope, FaWhatsapp } from 'react-ico
 
 const Nav = () => {
     return (
-        <div className={ NavStyles.container }>
+        <nav className={ NavStyles.container }>
             
             <div className={ NavStyles.navContainer}>
                 <Link to="/about/#about">about me</Link>
@@ -36,7 +36,7 @@ const Nav = () => {
                     <FaPhone/>
                 </a>
             </div>
-        </div>
+        </nav>
     )
 }
 

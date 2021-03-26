@@ -11,7 +11,7 @@ export const SidebarTemplate = ({
     description,
     image
 }) => (
-    <div className={ SidebarStyles.container }>
+    <header className={ SidebarStyles.container }>
 
         <Link to="/">
             <img src={image}/>
@@ -23,7 +23,7 @@ export const SidebarTemplate = ({
 
         <p>{description}</p>
 
-    </div>
+    </header>
 )
 
 SidebarTemplate.propTypes = {
