@@ -4,6 +4,10 @@
     .sidebar {
         min-height: 95vh;
     }
+
+    .feed {
+        padding: 1.5rem;
+    }
 }
 
 // very large screens
@@ -22,7 +26,6 @@
         }
     }
 }
-
 
 // large screens
 @media (min-width: 769px) and (max-width: 1023px) {
