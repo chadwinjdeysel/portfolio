@@ -1,12 +1,10 @@
 .container {
-    display: flex;
-    flex-direction: row;
     padding: .5em;
-    justify-content: space-evenly;
     margin-top: 2em;
+    max-width: 100%;
 
     .category {
-        display: block;
+        
         padding: .4em;
         border-radius: 12px;
         text-decoration: none;
@@ -35,5 +33,52 @@
     .all{
         background-color: rgb(235, 235, 235);
         color: #2d2d2d;
+    }
+}
+
+//very large screens 
+@media (min-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+
+        .category {
+            display: block;
+        }
+    }
+}
+
+// large screens
+@media (min-width: 769px) and (max-width: 1023px) {
+    .container {
+        
+        .category {
+            display: inline-block;
+            margin: .25em; 
+        }
+    }
+}
+
+// tablets 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        
+
+        .category {
+            display: inline-block;
+            margin: .25em; 
+        }
+    }
+}
+
+// smartphones 
+@media only screen and (max-width: 480px) {
+    .container {
+        
+
+        .category {
+            display: inline-block;
+            margin: .25em; 
+        }
     }
 }

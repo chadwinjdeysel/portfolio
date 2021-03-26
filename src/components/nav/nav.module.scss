@@ -1,0 +1,31 @@
+.container {
+    padding: .5em 1.5em ;
+    min-height: 25vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            font-size: 1.15em;
+            color: grey;
+            margin: .25em 0;
+        }
+    }
+
+    .socials-container {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        margin-top: bottom;
+
+        a {
+            color: #2d2d2d;
+            font-size: 1.75em;
+        }
+    }
+}

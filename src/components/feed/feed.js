@@ -5,7 +5,7 @@ import FeedStyles from './feed.module.scss'
 
 const Feed = ({data}) => {
     return (
-        <div className={FeedStyles.container}>
+        <div className={FeedStyles.container} id="feed">
             {data.edges.map((edge) => {
                 var category
                 switch(edge.node.frontmatter.category) {

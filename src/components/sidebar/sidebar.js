@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import {Link} from 'gatsby'
 
 import SidebarStyles from './sidebar.module.scss'
+import Nav from '../nav/nav'
 
 export const SidebarTemplate = ({
     myname,
@@ -36,11 +37,15 @@ const Sidebar = ({data}) => {
     const {frontmatter} = data
 
     return (
-        <SidebarTemplate 
-            myname={frontmatter.name}
-            title={frontmatter.title}
-            description={frontmatter.description}
-            image={frontmatter.image}/>
+        <div>
+            <SidebarTemplate 
+                myname={frontmatter.name}
+                title={frontmatter.title}
+                description={frontmatter.description}
+                image={frontmatter.image}/>
+
+            <Nav/>
+        </div>
     )
 }
 

@@ -13007,6 +13007,11 @@
     "shallowequal" "^1.1.0"
     "source-map" "^0.7.3"
 
+"react-icons@^4.2.0":
+  "integrity" "sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ=="
+  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.2.0.tgz"
+  "version" "4.2.0"
+
 "react-immutable-proptypes@^2.1.0":
   "integrity" "sha512-Vf4gBsePlwdGvSZoLSBfd4HAP93HDauMY4fDjXhreg/vg6F3Fj/MXDNyTbltPC/xZKmZc+cjLu3598DdYK6sgQ=="
   "resolved" "https://registry.npmjs.org/react-immutable-proptypes/-/react-immutable-proptypes-2.2.0.tgz"

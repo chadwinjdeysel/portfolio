@@ -23,6 +23,7 @@ const Index = ({
 
                 <div className={IndexStyles.sidebar}>
                     <Sidebar data={data.markdownRemark}/>
+
                 </div>
 
                 <div className={IndexStyles.feed}>

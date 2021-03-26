@@ -3,7 +3,6 @@ import React from 'react'
 import LayoutStyles from './layout.scss'
 import 'normalize.css'
 
-import Navbar from '../navbar/navbar'
 import Head from '../head/head'
 
 const Layout = ({ 

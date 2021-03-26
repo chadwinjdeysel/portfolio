@@ -62,3 +62,27 @@
         }
     }
 }
+
+//very large screens 
+@media (min-width: 1024px) {
+    
+}
+
+// large screens
+@media (min-width: 769px) and (max-width: 1023px) {
+    
+}
+
+// tablets 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        min-height: 70vh;
+    }
+}
+
+// smartphones 
+@media only screen and (max-width: 480px) {
+    .container {
+        min-height: 70vh;
+    }
+}

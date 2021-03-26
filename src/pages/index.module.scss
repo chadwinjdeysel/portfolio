@@ -1,5 +1,9 @@
 .container {
     display: flex;
+
+    .sidebar {
+        min-height: 95vh;
+    }
 }
 
 // very large screens
