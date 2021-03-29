@@ -13,7 +13,7 @@ export const SidebarTemplate = ({
 }) => (
     <header className={ SidebarStyles.container }>
 
-        <Link to="/">
+        <Link to="/" title="Go home">
             <img src={image}/>
         </Link>        
 

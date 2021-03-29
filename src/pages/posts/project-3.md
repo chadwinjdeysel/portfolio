@@ -7,6 +7,7 @@ featuredImage: /img/placeholder.png
 description: "Okay, I'm kinda tired of this right now. lets just hope for the best"
 keywords: "blog, product details, latest news"
 category: "article"
+contributor: "Chadwin Deysel"
 ---
 # Heading 1
 

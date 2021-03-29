@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    margin: auto;
+    margin-top: 1em;
+
+    .hero {
+        padding: .5em 1.5em;
+
+        img {
+            width: 11em;
+            height: 11em;
+            border-radius: 50%;
+            margin-bottom: 2em;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+    
+        h2 {
+            font-size: 1.25em;
+            margin: 0.1em;
+        }
+        
+        .socials-container {
+            display: flex;
+            justify-content: space-evenly;
+            position: relative;
+            margin: 4em 0;
+    
+            a {
+                color: #2d2d2d;
+                font-size: 1.75em;
+            }
+        }
+        
+    }
+
+    .about {
+        padding: .5em 1.5em;
+        
+        h2 {
+            margin: 0 initial;
+            font-size: 2em;
+        }
+
+        p {
+            margin: 0 initial;
+            font-size: 1.2em;
+        }
+    }
+}
+
+//very large screens 
+@media (min-width: 1024px) {
+    .container {
+        flex-direction: row;
+        width: 50%;
+    }
+}
+
+// large screens
+@media (min-width: 769px) and (max-width: 1023px) {
+    .container {
+        flex-direction: row;
+        width: 70%;
+
+        .about {
+            margin: 3.5em 0;
+        }
+    }
+}
+
+// tablets 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 70%;
+    }
+}
+
+// smartphones 
+@media only screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+    }
+}

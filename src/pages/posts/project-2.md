@@ -7,6 +7,7 @@ featuredImage: /img/placeholder.png
 description: "Website built with GatsbyJs and NetlifyCMS that does the same thing as project 1, but better. much better"
 keywords: "blog, product details, latest news"
 category: "case study"
+contributor: "Chadwin Deysel"
 ---
 # Heading 1
 

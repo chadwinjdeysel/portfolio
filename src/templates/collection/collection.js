@@ -17,11 +17,14 @@ export const CollectionPageTemplate =({
     contentComponent,
     category,
     slug,
-    siteUrl
+    siteUrl,
+    contributor
 }) => {
     const PostContent = contentComponent || Content
     
     const urlTitle = title.replace(" ", "%20")
+    var contributorSlug = contributor.toLowerCase()
+    contributorSlug = contributorSlug.replace(" ", "-")
 
     var categoryStyle
                 switch(category) {
@@ -57,7 +60,7 @@ export const CollectionPageTemplate =({
                     </p>
                     <p>{description}</p>
 
-                    <Link to="/contributors/chadwin-deysel" itemProp="author">by Chadwin Deysel</Link>
+                    <Link to={`/contributors/${contributorSlug}`} itemProp="author">{`by ${contributor}`}</Link>
                 </div>
 
                 <PostContent content={content}/>
@@ -91,7 +94,8 @@ CollectionPageTemplate.propTypes = {
     date: PropTypes.string,
     category: PropTypes.string,
     slug: PropTypes.string,
-    siteUrl: PropTypes.string
+    siteUrl: PropTypes.string,
+    contributor: PropTypes.string
 }
 
 const Collection = ({ data }) => {
@@ -113,6 +117,7 @@ const Collection = ({ data }) => {
                 category={item.frontmatter.category}
                 slug={item.fields.slug}
                 siteUrl={data.site.siteMetadata.siteUrl}
+                contributor={item.frontmatter.contributor}
             />
         </Layout>
     )
@@ -137,6 +142,7 @@ export const pageQuery = graphql`
                 description
                 keywords
                 category
+                contributor
             }
             fields{
                 slug

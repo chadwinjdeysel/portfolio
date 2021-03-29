@@ -21,3 +21,12 @@ h1, h3, h4, h5, h6 {
 h2 {
     color: #33539e
 }
+
+a>img {
+    transition: transform ease-in .2s;
+    border: 1px solid #c0bfbf;
+
+    &:hover {
+        transform: skew(-3deg);
+    }
+}

@@ -19,6 +19,21 @@ collections:
       - {label: 'Body', name: 'body', widget: 'markdown'}
       - {label: 'Keywords', name: 'keywords', widget: 'string'}
       - {label: 'Category', name: 'category', widget: 'string'}
+  - name: 'contributors'
+    label: 'Contributors'
+    folder: 'src/pages/contributors'
+    create: true
+    identifier_field: name
+    fields: 
+      - {label: 'Template Key', name: 'templateKey', widget: 'hidden', default: 'contributor'}
+      - {label: 'Contributor Image', name: 'image', widget: 'image'}
+      - {label: 'Name', name: 'name', widget: 'text'}
+      - {label: 'Contributor', name: 'contributor', widget: 'text'}
+      - {label: 'Title', name: 'title', widget: 'text'}
+      - {label: 'About', name: 'about', widget: 'text'}
+      - {label: 'Linkedin Link', name: 'linkedin', widget: 'text'}
+      - {label: 'GitHub Link', name: 'github', widget: 'text'}
+      - {label: 'Email Address', name: 'email address', widget: 'text'}
 
   - name: 'pages'
     label: 'Pages'

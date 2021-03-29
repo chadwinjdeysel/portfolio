@@ -7,6 +7,7 @@ featuredImage: /img/placeholder.png
 description: "Website built with GatsbyJs and NetlifyCMS that allows company to post lastest products and news."
 keywords: "blog, product details, latest news"
 category: "project"
+contributor: "Chadwin Deysel"
 ---
 
 # Heading 1
