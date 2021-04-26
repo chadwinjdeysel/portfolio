@@ -36,11 +36,11 @@ Planning may seem mundane but it’s actually a big part of development. Plannin
 
 Now I would usually use pen and paper to plan and make notes, but I tend to loose a lot of my ideas and planning. So here are some free, cloud based tools that I use for my planning:
 
-· Draw.io, for drawing up relational databases and UML diagrams.
+* Draw.io, for drawing up relational databases and UML diagrams.
 
-· Figma, for drawing up site maps, wire reframing and building a basic UI.
+* Figma, for drawing up site maps, wire reframing and building a basic UI.
 
-· Mindmup, for finding the best coffee beans of course…
+* Mindmup, for finding the best coffee beans of course…
 
 ## Google search is a skill that needs mastery
 
@@ -56,13 +56,13 @@ I myself attended a college course and while there were a few issues (like a sli
 
 There are a lot of inexpensive books (like from Author Jon Duckett), blogs and tutorials that can develop your skills. I’m a .Net Developer so I can’t speak for resources for Python developers, but here’s my list of resources I used:
 
-· C# Corner & Tutorials: great resources and tutorials for .NET developers learning C# and other related technologies.
+* C# Corner & Tutorials: great resources and tutorials for .NET developers learning C# and other related technologies.
 
-· W3Schools: my go to resource for HTML, CSS, JavaScript, jQuery, SQL and Bootstrap lessons.
+* W3Schools: my go to resource for HTML, CSS, JavaScript, jQuery, SQL and Bootstrap lessons.
 
-· Brackey’s YouTube Channel: the best and most entertaining Unity games development content out there.
+* Brackey’s YouTube Channel: the best and most entertaining Unity games development content out there.
 
-· Microsoft’s Docs: everything you ever need to know about .NET from ASP.NET to Xamarin.
+* Microsoft’s Docs: everything you ever need to know about .NET from ASP.NET to Xamarin.
 
 ## You need a hobby
 
@@ -72,11 +72,11 @@ It’s very easy to become consumed by coding because of the thrill of solving p
 
 Finding a hobby that can get your mind off of programming for a while is very valuable. Some ideas could be:
 
-· Getting into a sport or going to gym to work your frustrations off.
+* Getting into a sport or going to gym to work your frustrations off.
 
-· Find something to master like an instrument or first person shooter.
+* Find something to master like an instrument or first person shooter.
 
-· Picking up meditation or yoga to clear your mind and soul.
+* Picking up meditation or yoga to clear your mind and soul.
 
 ## Conclusion
 

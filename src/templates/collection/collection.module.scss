@@ -1,13 +1,7 @@
 .container {
     margin: 1em auto 2em;
 
-    a {
-        text-decoration: none;
-        font-size: 1.25em;
-        margin: 1em 0 0 1em;
-        display: inline-block;
-    }
-
+    
     article {
         padding: 0 2em;
         margin: auto;
@@ -43,9 +37,12 @@
                 }
             }
 
-            a {
+            .contributor {
                 margin: .75em 0 0 0;
                 font-size: 1.25em;
+                text-decoration: none;
+                font-size: 1.25em;
+                display: inline-block;
             }
 
         }

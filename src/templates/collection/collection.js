@@ -60,7 +60,7 @@ export const CollectionPageTemplate =({
                     </p>
                     <p>{description}</p>
 
-                    <Link to={`/contributors/${contributorSlug}`} itemProp="author">{`by ${contributor}`}</Link>
+                    <Link to={`/contributors/${contributorSlug}`} itemProp="author" className={CollectionStyles.contributor}>{`by ${contributor}`}</Link>
                 </div>
 
                 <PostContent content={content}/>
