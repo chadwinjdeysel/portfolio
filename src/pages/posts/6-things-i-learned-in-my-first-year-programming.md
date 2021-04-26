@@ -1,7 +1,7 @@
 ---
 templateKey: collection
 type: page
-contributor: chadwin deysel
+contributor: Chadwin Deysel
 title: 6 Things I learned in my first year programming
 description: "Starting something new isn't easy, let alone being a developer.
   Here are the 6 things that I learned in my first year programming. "
