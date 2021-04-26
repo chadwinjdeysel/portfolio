@@ -3,12 +3,14 @@ templateKey: collection
 type: page
 contributor: chadwin deysel
 title: 6 Things I learned in my first year programming
-description: "Starting something new isn't easy, let alone being a developer. Here are the 6 things that I learned in my first year programming. "
+description: "Starting something new isn't easy, let alone being a developer.
+  Here are the 6 things that I learned in my first year programming. "
 date: 2020-04-16T10:58:40.621Z
-keywords: "programming, software development, software developer, what I learned in my first year programming, becoming a developer in 2021 "
+keywords: "programming, software development, software developer, what I learned
+  in my first year programming, becoming a developer in 2021 "
 category: article
 ---
-Now I’ve always been into tech and even had high school subject which focused on coding. But if you asked me at that time what I wanted to do with my life, the answer was simply: “become a famous at something”. So after I took a gap year and then got burnt out doing financial accounting I decided to make the jump to the world of programming and it was probably the most fun and equally most stressful thing I’ve done.
+Now I’ve always been into tech and even had a high school subject which focused on coding. But if you asked me at that time what I wanted to do with my life, the answer was simply: “become a famous at something”. So after I took a gap year and then got burnt out doing financial accounting I decided to make the jump to the world of programming and it was probably the most fun and equally most stressful thing I’ve done.
 
 Between building cool applications to struggling with one error for several days, I learned a lot during this time. Here’s a few of the things I learned during my first years as a developer.
 
@@ -83,3 +85,5 @@ Now I could’ve included a few of the smaller things like the value of becoming
 Whether you are just starting off and found this post of value or have been in programming for a while and related to some of these lessons, I hope you enjoyed this post.
 
 My goal is to document my journey as a developer and provide value and insight regarding this crazy world. So here’s wishing you luck with your journey.
+
+This article was originally posted on [Medium](https://medium.com/@chadwinjdeysel/6-things-i-learned-in-my-first-year-programming-1b80ab6f6c7c)
