@@ -1,11 +1,11 @@
 ---
 templateKey: collection
+type: page
+contributor: chadwin deysel
 title: 6 Things I learned in my first year programming
-description: "Starting something new isn't easy, let alone being a developer.
-  Here are the 6 things that I learned in my first year programming. "
+description: "Starting something new isn't easy, let alone being a developer. Here are the 6 things that I learned in my first year programming. "
 date: 2020-04-16T10:58:40.621Z
-keywords: "programming, software development, software developer, what I learned
-  in my first year programming, becoming a developer in 2021 "
+keywords: "programming, software development, software developer, what I learned in my first year programming, becoming a developer in 2021 "
 category: article
 ---
 Now I’ve always been into tech and even had high school subject which focused on coding. But if you asked me at that time what I wanted to do with my life, the answer was simply: “become a famous at something”. So after I took a gap year and then got burnt out doing financial accounting I decided to make the jump to the world of programming and it was probably the most fun and equally most stressful thing I’ve done.
